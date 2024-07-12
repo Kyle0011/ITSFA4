@@ -39,7 +39,7 @@ plt.show()
 #%%
 
 # c) Choose two other meaningful columns to plot based on the sales data
-# For example, let's choose 'Category' and 'Segment'
+
 sales_by_category = df.groupby('Category')['Sales'].sum()
 sales_by_segment = df.groupby('Segment')['Sales'].sum()
 
